@@ -311,7 +311,7 @@
 			else
 				playsound(loc, 'sound/weapons/slice.ogg', 25, 1, -1)
 
-			visible_message("<span class='danger'>[M] has [M.species.attack_verb]ed [src]!</span>")
+			visible_message("<span class='danger'>[M] has [M.species.attack_verb]med [src]!</span>")
 
 			if((knockout >= M.species.max_hurt_damage) && prob(50))
 				visible_message("<span class='danger'>[M] has weakened [src]!</span>")
